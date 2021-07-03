@@ -67,9 +67,13 @@ private ActivityMainBinding binding;
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }
-    /*
-     */
-    public void gotTo(String cardName) {
+
+  /** Show a specific card
+   * Will not do anything if card does not exist
+   *
+   *  @param cardName name of the card to display
+   */
+  public void goTo(String cardName) {
 
     }
 }

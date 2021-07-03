@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewEntryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/gratitudeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What I'm Grateful For:"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment" />
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <TextView
+        android:id="@+id/improvement_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How I Improved:"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
